@@ -1,0 +1,37 @@
+.skillIcon {
+    display: flex;
+    padding: 10px;
+    background-color:whi;
+    justify-content: space-evenly;
+}
+.skill{
+    height: 70px;
+    width: 70px;
+    background-color:rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    border:2px solid gray;
+}
+.skill img{
+    height: 50px;
+    width: 50px;
+}
+
+.skillName {
+    display: flex;
+    margin-top:1px;
+    justify-content: space-evenly;
+}
+
+.skillText {
+    width:50px;
+    display: flex;
+    justify-content: center;
+    font-weight:600;
+    align-items: center;
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+}

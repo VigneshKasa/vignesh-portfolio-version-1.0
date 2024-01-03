@@ -1,0 +1,43 @@
+.projectContainer{
+    border-top:0.5px solid rgb(38,38,38);
+    margin-top:60px;
+}
+.selectBar{
+  display: flex;
+  font-family:Arial, Helvetica, sans-serif;
+  justify-content: center;
+  gap:40px;
+
+}
+.selectBox{
+  background-color:rgb(0, 0, 0);
+  color: white;
+  padding:5px;
+  height:40px;
+  gap:10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size:12px;
+  border-top: 2px solid white;
+  cursor: pointer;
+}
+.projectBox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:5px;
+}
+.project{
+    background-color: rgb(139, 139, 139);
+    height:310px;
+    width:310px;
+    cursor: pointer;
+}
+.project img{
+    height: 310px;
+    width: 310px;
+}
+.project:hover{
+    background-color: gray;
+}
