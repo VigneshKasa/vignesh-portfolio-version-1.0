@@ -13,7 +13,7 @@ function TitleContainer() {
                 </div>
                 <div className={styles.titleBar}>
                     <div className={styles.profilePic}>
-                        <img src="/images/profile3.png" alt="image" className="image" />
+                        <div className={styles.img}></div>
                     </div>
                     <div className={styles.descriptionContainer}>
                         <div className="personalInfoContainer">
@@ -28,9 +28,9 @@ function TitleContainer() {
                         </div>
                         <div className={styles.technicalContainer}>
                             <div className={styles.professional}>
-                                <div className="skills">7 skills</div>
-                                <div className="projects">5 projects</div>
-                                <div className="internships">1 internship</div>
+                                <div className={styles.skills}>7 skills</div>
+                                <div className={styles.projects}>5 projects</div>
+                                <a href="https://www.linkedin.com/posts/vigneshkasa_internship-activity-7037458887108685824-zTyl?utm_source=share&utm_medium=member_desktop"><div className={styles.internship}>1 internship</div></a>
                             </div>
                             <div className={styles.aboutMe}>
                                 <p>I am a <span className={styles.aboutTitle}> Front-End Web Developer.</span></p>

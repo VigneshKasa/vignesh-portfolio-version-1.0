@@ -1,9 +1,9 @@
 import styles from './Skills.module.css'
 function Skills(){
 
-    let skillList=["Java","HTML","CSS","JavaScript","React Js","GitHub","Docker"]
+    let skillList=["Java","HTML","CSS","JavaScript","React Js","GitHub","API"]
     let skillListImg=["/images/java.png","/images/html.png","/images/css.png",
-    "/images/javascript.png","/images/reactjs.png","/images/github.png","/images/docker.png"]
+    "/images/javascript.png","/images/reactjs.png","/images/github.png","/images/api.png"]
     return(
         <>
         <div className={styles.skillIcon}>

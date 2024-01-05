@@ -1,13 +1,15 @@
 @font-face {
-    font-family:"Billabong";
+    font-family: "Billabong";
     src: url("Billabong.ttf");
 }
-*{
+
+* {
     padding: 0;
-    top:0;
+    top: 0;
     margin: 0;
 }
-body{
+
+body {
     background-color: black;
 }
 
@@ -15,50 +17,63 @@ body{
     background-color: rgb(0, 0, 0);
     color: white;
     display: flex;
-    padding:30px;
+    padding: 30px;
     justify-content: space-between;
 }
-.title{
+
+.title {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size:60px;
-    font-family:'Billabong';
-    color:white;
+    font-size: 60px;
+    font-family: 'Billabong';
+    color: white;
 
 }
+
 .profilePic {
     display: flex;
     justify-content: center;
     align-items: center;
-    width:50%;
+    width: 50%;
 }
-.profilePic img {
+
+.img {
     height: 230px;
     width: 230px;
     border-radius: 50%;
     cursor: pointer;
-   animation: animate 5s infinite;
-   animation-fill-mode:forwards;
-   animation-timing-function:ease-in-out;
+    background-image: url("/images/profile1.png");
+    background-size: cover;
+    animation: animate 5s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
 }
 
-@keyframes animate{
-    
-    
-    0%{
-        content: url("/images/myprofile.jpg");
+@keyframes animate {
+
+
+    0% {
+        background-image: url("/images/profile1.png");
+        border: 3.5px solid #9c9c9c;
+
+
+    }
+
+    40% {
+        background-image: url("/images/myprofile.jpg");
         border: 3.5px solid #10ed0f;
 
     }
-    50%{
-        content: url("/images/profile3.png");
-        border:  3.5px solid #9c9c9c;
+
+    80% {
+        background-image: url("/images/profile3.png");
+        border: 3.5px solid #ec0a63;
 
     }
-    100%{
-        content: url("/images/profile1.png");
-        border: 3.5px solid #ec0a63;
+    100% {
+        background-image: url("/images/profile1.png");
+        border: 3.5px solid #9c9c9c;
 
     }
 }
@@ -66,7 +81,7 @@ body{
 .descriptionContainer {
     margin: 15px;
     width: 50%;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-family: sans-serif;
 }
 
@@ -80,49 +95,61 @@ body{
 .personalInfo {
     align-items: center;
     display: flex;
-    justify-content:space-between;
+    justify-content: space-between;
 }
-.name{
-    font-size:20px;
+
+.name {
+    font-size: 20px;
 }
-.contactBox{
+
+.contactBox {
     display: flex;
-    gap:5px;
+    gap: 5px;
 }
-a{
+
+a {
     text-decoration: none;
     color: white;
 }
+
 .buttonBox {
     border-radius: 2px;
     margin-left: 2px;
     padding: 5px 10px;
-    font-size:13px;
-    display:flex;
-    gap:5px;
-    font-weight:600;
+    font-size: 13px;
+    display: flex;
+    gap: 5px;
+    font-weight: 600;
     border-radius: 7px;
     background-color: rgb(54, 54, 54);
     cursor: pointer;
 }
-.buttonBox:hover{
-    background-color:rgba(82, 81, 81, 0.485);
+
+.buttonBox:hover {
+    background-color: rgba(82, 81, 81, 0.485);
 }
+
 .technicalContainer {
-    margin-top:20px;
-    justify-content:space-evenly;
-}
-.professional{
-    display: flex;
-    gap:40px;
-}
-.aboutMe{
     margin-top: 20px;
-    font-size:15px;
-    font-weight:100;
+    justify-content: space-evenly;
 }
-.aboutTitle{
+
+.professional {
+    display: flex;
+    gap: 40px;
+}
+
+.aboutMe {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 100;
+}
+
+.aboutTitle {
     font-family: monospace;
     font-size: 20px;
-    color:rgb(22, 148, 245)
+    color: rgb(22, 148, 245);
+    animation: textColor 5s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
 }
