@@ -29,7 +29,7 @@ function TitleContainer() {
                         <div className={styles.technicalContainer}>
                             <div className={styles.professional}>
                                 <div className={styles.skills}>7 skills</div>
-                                <div className={styles.projects}>5 projects</div>
+                                <div className={styles.projects}>6 projects</div>
                                 <a href="https://www.linkedin.com/posts/vigneshkasa_internship-activity-7037458887108685824-zTyl?utm_source=share&utm_medium=member_desktop"><div className={styles.internship}>1 internship</div></a>
                             </div>
                             <div className={styles.aboutMe}>

@@ -153,3 +153,21 @@ a {
     animation-fill-mode: forwards;
     animation-timing-function: ease-in-out;
 }
+@keyframes textColor{
+    0%{
+        color:rgb(22, 148, 245);
+    }
+    25%{
+        color:rgb(245, 182, 22);
+    }
+
+    50%{
+        color:rgb(105, 105, 105);
+    }
+    75%{
+        color:rgb(240, 240, 240);
+    }
+    90%{
+        color:rgb(22, 148, 245);
+    }
+}
