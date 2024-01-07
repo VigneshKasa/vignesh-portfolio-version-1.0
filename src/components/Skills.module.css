@@ -12,7 +12,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 50px;
+    cursor:none;
+    border-radius: 50%;
     border:2px solid gray;
 }
 .skill img{

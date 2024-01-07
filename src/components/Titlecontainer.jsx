@@ -8,7 +8,7 @@ function TitleContainer() {
     return (
         <>
             <div className={styles.mainBox}>
-                <div className={styles.title}>
+                <div className={styles.heading}>
                     Portfoliogram
                 </div>
                 <div className={styles.titleBar}>
