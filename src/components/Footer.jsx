@@ -12,7 +12,7 @@ function Footer() {
                     ))}
                 </div>
                 <div className={styles.copyright}>
-                    <MdCopyright/>2024 VigneshKasa The Web Developer.
+                    <MdCopyright/>2024 <b>Vignesh Kasa</b> The Aspiring Web Developer.
                     </div>
             </div>
         </>

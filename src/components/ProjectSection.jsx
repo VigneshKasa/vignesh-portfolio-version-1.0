@@ -1,6 +1,5 @@
 import styles from "./ProjectSection.module.css"
 import { GiAchievement } from "react-icons/gi";
-import { GrProjects } from "react-icons/gr";
 import { IoMdGrid } from "react-icons/io";
 
 import { useState } from "react";
@@ -19,6 +18,8 @@ function ProjectSection() {
         { liveUrl: "https://www.linkedin.com/posts/vigneshkasa_anuraguniversity-nss-activity-7111980975026315264-pNQg?utm_source=share&utm_medium=member_desktop", imgUrl: "/images/bestvolunteer.png" }
     ]
     const [active, setActive] = useState("projects")
+    const [postActive, setPostActive] = useState("projects")
+
     return (
         <>
             <div className={styles.projectMainBox}>

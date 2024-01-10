@@ -3,6 +3,7 @@ import TitleContainer from './components/Titlecontainer'
 import Skills from './components/Skills'
 import ProjectSection from './components/ProjectSection'
 import Footer from './components/Footer'
+import ProjectPreview from './components/ProjectPreview'
 function App() {
 
   return (
@@ -12,8 +13,8 @@ function App() {
         <Skills />
         <ProjectSection />
         <Footer />
+        <ProjectPreview></ProjectPreview>
       </div>
-
     </>
   )
 }
