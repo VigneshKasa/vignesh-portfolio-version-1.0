@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Billabong";
-    src: url("Billabong.ttf");
+    src: url("/Billabong.ttf");
 }
 
 * {
@@ -179,7 +179,7 @@ a {
     }
     
     .titleBar {
-        padding:10px;
+        padding: 10px;
         display: flex;
 flex-direction: column;
     }
@@ -206,7 +206,6 @@ flex-direction: column;
     }
     .descriptionContainer p{
         font-size:12px;
-        padding:0px 15px
     }
     
     .personalInfoContainer {
@@ -219,8 +218,7 @@ flex-direction: column;
     .personalInfo {
         align-items: center;
         display: flex;
-        padding:0px 50px;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     
     .name {
@@ -241,7 +239,7 @@ flex-direction: column;
         border-radius: 2px;
         margin-left: 2px;
         padding: 5px 10px;
-        font-size:12px;
+        font-size:10px;
         display: flex;
         gap: 5px;
         font-weight: 500;

@@ -77,8 +77,8 @@ width:100%;
   }
   .project{
     background-color: rgb(139, 139, 139);
-    height: 150px;
-    width:150px;
+    height: 120px;
+    width:120px;
     cursor: pointer;
 }
 .projectBox{
@@ -86,8 +86,8 @@ width:100%;
   justify-content: center;
 }
 .project img{
-    height: 150px;
-    width: 150px;
+    height: 120px;
+    width: 120px;
 }
 .projectContainer{
   margin-top:30px;

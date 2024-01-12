@@ -5,8 +5,8 @@ body{
 }
 .mainBox{
   position: relative;
-     left:15%;
-      width: 70%;
+  left:15%;
+  width:70%;
       border-left:0.5px solid rgb(38,38,38);
       border-right:1px solid rgb(38,38,38);
 
@@ -17,7 +17,7 @@ body{
   @media only screen and (max-width:600px){
     .mainBox{
       width: 100%;
-      left:8%;
+      left:0%;
       border: none;
     }
   }
