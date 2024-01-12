@@ -61,3 +61,36 @@
 .project:hover{
     background-color: gray;
 }
+@media only screen and (max-width:600px){
+ .projectContainer{
+width:100%;
+  }
+  .selectBar{
+    gap:10px;
+  }
+  .selectBox{
+    font-size:9px;
+  }
+  .sectionActive{
+    font-size: 9px;
+    color:  #007dce;
+  }
+  .project{
+    background-color: rgb(139, 139, 139);
+    height: 150px;
+    width:150px;
+    cursor: pointer;
+}
+.projectBox{
+  display: flex;
+  justify-content: center;
+}
+.project img{
+    height: 150px;
+    width: 150px;
+}
+.projectContainer{
+  margin-top:30px;
+  width:100%;
+}
+}

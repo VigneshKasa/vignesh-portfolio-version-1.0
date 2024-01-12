@@ -56,7 +56,7 @@ function ProjectPreview() {
                         <div className={styles.closebtn}><IoCloseSharp /></div>
 
                     </div>
-                    <div className={styles.projectDescription}>{Projects[2].description}</div>
+                    <div className={styles.projectDescription}>{Projects[0].description}</div>
                     <div className={styles.projectLinks}>
                         <a href={Projects[0].gitUrl}> <div className={styles.links}><FaGithub /></div></a>
                         <a href={Projects[0].liveUrl}>  <div className={styles.links}><HiOutlineExternalLink /></div></a>
