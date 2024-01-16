@@ -44,6 +44,7 @@
   }
 .projectBox{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     flex-direction: row;
     gap:5px;
@@ -94,3 +95,36 @@ width:100%;
   width:100%;
 }
 }
+@media only screen and ((max-width:900px) and (min-width:600px)){
+  .projectContainer{
+ width:100%;
+   }
+   .selectBar{
+     gap:30px;
+   }
+   .selectBox{
+     font-size:13px;
+   }
+   .sectionActive{
+     font-size: 13px;
+     color: rgb(255, 255, 255);
+   }
+   .project{
+     background-color: rgb(139, 139, 139);
+     height: 180px;
+     width:180px;
+     cursor: pointer;
+ }
+ .projectBox{
+   display: flex;
+   justify-content: center;
+ }
+ .project img{
+     height: 180px;
+     width: 180px;
+ }
+ .projectContainer{
+   margin-top:30px;
+   width:100%;
+ }
+ }

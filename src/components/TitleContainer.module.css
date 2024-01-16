@@ -271,3 +271,103 @@ flex-direction: column;
         color: rgb(22, 148, 245);
     }
 }
+@media only screen and ((min-width:600px) and (max-width:900px)){
+    .heading {
+        margin-top:30px;
+        font-size: 45px;
+    
+    }
+    
+    .titleBar {
+        padding: 10px;
+        display: flex;
+flex-direction: column;
+    }
+    
+    .profilePic {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+    }
+    
+    .img {
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        background-image: url("/images/profile1.png");
+        background-size: cover;
+    }
+    .descriptionContainer {
+        margin: 15px;
+        width: 100%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-family: sans-serif;
+    }
+    .descriptionContainer p{
+        font-size:15px;
+    }
+    
+    .personalInfoContainer {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    
+    .personalInfo {
+        align-items: center;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    .name {
+        font-size:25px;
+    }
+    
+    .contactBox {
+        display: flex;
+        gap: 5px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .buttonBox {
+        border-radius: 2px;
+        margin-left: 2px;
+        padding: 5px 10px;
+        font-size:15px;
+        display: flex;
+        gap: 5px;
+        font-weight: 500;
+        border-radius: 7px;
+        background-color: rgb(54, 54, 54);
+        cursor: pointer;
+    }
+    
+    .technicalContainer {
+        margin-top: 20px;
+        justify-content: space-evenly;
+    }
+    
+    .professional {
+        display: flex;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .aboutMe {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: 100;
+    }
+    
+    .aboutTitle {
+        font-family: monospace;
+        font-size: 25px;
+        color: rgb(22, 148, 245);
+    }
+}

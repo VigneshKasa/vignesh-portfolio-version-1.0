@@ -40,3 +40,19 @@
       margin-bottom:50px;
     }
 }
+@media only screen and ((max-width:900px) and (min-width:600px)){
+    .footerContainer{
+        margin-top:30px;
+    }
+    .footerListContainer{
+        margin-bottom:19px;
+    }
+    .footerItems{
+        font-size:8px;
+    }
+    .copyright{
+      font-size:8px;
+      gap:5px;
+      margin-bottom:50px;
+    }
+}
