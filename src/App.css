@@ -21,7 +21,7 @@ body{
       border: none;
     }
   }
-  @media only screen and ((max-width:900px) and (min-width:600px)){
+  @media only screen and ((max-width:1200px) and (min-width:600px)){
     .mainBox{
       width: 100%;
       left:0%;
