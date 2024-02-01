@@ -20,8 +20,8 @@ function TitleContainer() {
                             <div className={styles.personalInfo}>
                                 <div className={styles.name}>Vignesh_Kasa</div>
                                 <div className={styles.contactBox}>
-                                <a href="https://www.linkedin.com/in/vigneshkasa"><div className={styles.buttonBox}>LinkedIn<AiFillLinkedin/></div></a>
-                                    <a href="https://github.com/vigneshkasa"><div className={styles.buttonBox}>GitHub<IoLogoGithub/></div></a>
+                                <a href="https://www.linkedin.com/in/vigneshkasa" target="_blank"><div className={styles.buttonBox}>LinkedIn<AiFillLinkedin/></div></a>
+                                    <a href="https://github.com/vigneshkasa" target="_blank"><div className={styles.buttonBox}>GitHub<IoLogoGithub/></div></a>
                                     <a href="/images/VIGNESH KASA_RESUME_MS.pdf" download='Vignesh_resume'><div className={styles.buttonBox}>Resume<HiOutlineDownload /></div></a>
                                 </div>
                             </div>

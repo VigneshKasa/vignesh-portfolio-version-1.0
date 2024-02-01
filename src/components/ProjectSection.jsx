@@ -6,12 +6,13 @@ import { useState } from "react";
 
 function ProjectSection() {
     let Projects = [
-        { liveUrl: "https://vigneshkasa.github.io/QuotesInspired/", imgUrl: "/images/quotes.png" },
-        { liveUrl: "https://vigneshkasa.github.io/WeatherApp/", imgUrl: "/images/weather.png" },
-        { liveUrl: "https://vigneshkasa.github.io/RockPaperScissors/", imgUrl: "/images/rps.png" },
-        { liveUrl: "https://vigneshkasa.github.io/BulbSwitch/", imgUrl: "/images/bulb.png" },
         { liveUrl: "https://vigneshkasa.github.io/AppleClone/", imgUrl: "/images/appleClone.png" },
-        { liveUrl: "https://vigneshkasa.github.io/BasicMath/", imgUrl: "/images/math.png" }
+        { liveUrl: "https://vigneshkasa.github.io/QuotesInspired/", imgUrl: "/images/quotes.png" },
+        { liveUrl: "https://vigneshkasa.github.io/BasicMath/", imgUrl: "/images/math.png" },
+        { liveUrl: "https://vigneshkasa.github.io/WeatherApp/", imgUrl: "/images/weather.png" },
+        { liveUrl: "https://vigneshkasa.github.io/BulbSwitch/", imgUrl: "/images/bulb.png" },
+        { liveUrl: "https://vigneshkasa.github.io/RockPaperScissors/", imgUrl: "/images/rps.png" }
+       
     ]
     let Achievements = [
         { liveUrl: "https://www.linkedin.com/feed/update/urn:li:activity:6935542716206325760/?originTrackingId=jSwUJ6xpQkWWzFZPGSuoZg%3D%3D", imgUrl: "/images/tcscodevita.png" },
@@ -31,7 +32,7 @@ function ProjectSection() {
                     {active === "projects" &&
                         <div className={styles.projectBox}>
                             {Projects.map((list =>
-                                <a href={list.liveUrl}><div className={styles.project}>
+                                <a href={list.liveUrl} target="_blank"><div className={styles.project}>
                                     <img src={(list.imgUrl)} alt="img" />
                                 </div>
                                 </a>
@@ -43,7 +44,7 @@ function ProjectSection() {
                     {active === "achievements" &&
                         <div className={styles.projectBox}>
                             {Achievements.map((list =>
-                                <a href={list.liveUrl}><div className={styles.project}>
+                                <a href={list.liveUrl} target="_blank"><div className={styles.project}>
                                     <img src={(list.imgUrl)} alt="img" />
                                 </div>
                                 </a>
