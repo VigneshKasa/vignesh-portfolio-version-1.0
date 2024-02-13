@@ -33,8 +33,9 @@ function TitleContainer() {
                                 <a href="https://www.linkedin.com/posts/vigneshkasa_internship-activity-7037458887108685824-zTyl?utm_source=share&utm_medium=member_desktop"><div className={styles.internship}>1 internship</div></a>
                             </div>
                             <div className={styles.aboutMe}>
-                                <p>I am a <span className={styles.aboutTitle}> Front-End Web Developer.</span></p>
-                                <p>I have hands on experience in front end web development and knowledge in technologies like HTML, CSS, JavaScript, React js, GitHub, Java, APIs.</p>
+                                <p>I am Vignesh a <span className={styles.aboutTitle}> Front-End Web Developer.</span></p>
+                                <p>I have hands on experience in front end web development with the robust foundation in technologies like 
+                                    JAVA, HTML, CSS, JavaScript & APIs coupled with  React js Framework / Library and version control with GitHub.</p>
                             </div>
                         </div>
                     </div>
