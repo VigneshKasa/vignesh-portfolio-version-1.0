@@ -6,6 +6,7 @@ import { useState } from "react";
 
 function ProjectSection() {
     let Projects = [
+        { liveUrl: "https://electro-nix-react.vercel.app/", imgUrl: "/images/Electronix.png" },
         { liveUrl: "https://vigneshkasa.github.io/AppleClone/", imgUrl: "/images/appleClone.png" },
         { liveUrl: "https://vigneshkasa.github.io/QuotesInspired/", imgUrl: "/images/quotes.png" },
         { liveUrl: "https://vigneshkasa.github.io/BasicMath/", imgUrl: "/images/math.png" },
